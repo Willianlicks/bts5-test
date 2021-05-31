@@ -14,6 +14,16 @@ h1 {
     line-height: 1.46;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f8f;
+}
+
 #title {
     background-color: #ff4c68;
 
@@ -61,6 +71,17 @@ h1 {
     margin: 10px 0 0 60px;
 }
 
+/* Features */
+
+.feature-box{
+    padding: 8%;
+}
+
 .icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
     color: #ff4c68;
 }
