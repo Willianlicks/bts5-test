@@ -73,7 +73,7 @@
 
       <!-- Title -->
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-3">
           <h1>Meet new and interesting cats nearby.</h1>
 
           <!-- O I do fabawsome não afeta em nada o codigo, é apenas porque é curto, mas a melhor prática é usar a tag <span>-->
@@ -118,31 +118,36 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"
-      data-pause="hover">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>I no longer have to sniff other cats for love. I've found the hottest Siamese on TinCat. Mee oow.</h2>
-          <img class="testimonial-image" src="images/cat-img.png" alt="cat-profile">
-          <em>Snuffles, New York</em>
+    <div class="row">
+      <div class="col-lg-12 col-md-6 col-xs-2">
+        <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000"
+          data-pause="hover">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>I no longer have to sniff other cats for love. I've found the hottest Siamese on TinCat. Mee oow.</h2>
+              <img class="testimonial-image img-fluid" src="images/cat-img.png" alt="cat-profile">
+              <em>Snuffles, New York</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, they've found the love of
+                their life. I think.</h2>
+              <img class="testimonial-image img-fluid" src="images/lady-img.jpg" alt="lady-profile">
+              <em>Beverly, Illinois</em>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-item">
-          <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, they've found the love of
-            their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+         </div>
     </div>
   </section>
+    
 
 
   <!-- Press -->

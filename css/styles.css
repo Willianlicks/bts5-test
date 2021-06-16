@@ -41,7 +41,7 @@ p {
 }
 
 #title {
-    background-color: #ff4c68;
+    background-color: #ff4c68;  
 
     color: #fff;
 }
@@ -111,13 +111,21 @@ p {
     text-align: center;
 }
 
+.testimonials-carousel {
+    position: absolute;
+}
+
 .carousel-item {
     padding: 5% 15%;
     }
 
 .testimonial-image {
     border-radius: 100%;
-    width: 12%;
+    width: 15%;
+}
+
+.col-xs-2 {
+    font-weight: 400;
 }
 
 #press {
